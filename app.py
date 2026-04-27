@@ -100,7 +100,7 @@ if prompt := st.chat_input("Kirjuta oma küsimus siia... 💬"):
             try:
                 genai.configure(api_key=GEMINI_KEY)
                 model = genai.GenerativeModel(
-                    model_name="gemini-1.5-flash",
+                    model_name="gemini-2.0-flash",
                     system_instruction=build_system(topic, level)
                 )
                 history = []
