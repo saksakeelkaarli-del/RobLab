@@ -144,7 +144,7 @@ if prompt := st.chat_input("Kirjuta oma küsimus siia... 💬"):
     with st.chat_message("assistant"):
         with st.spinner("🤖 Mõtlen..."):
             try:
-                genai.configure(api_key=api_key)
+                genai.configure(api_key=GEMINI_KEY)
                 model = genai.GenerativeModel(
                     model_name="gemini-1.5-flash",
                     system_instruction=build_system(topic, level)
