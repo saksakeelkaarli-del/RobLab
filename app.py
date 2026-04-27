@@ -1,7 +1,7 @@
 import streamlit as st
 import google.generativeai as genai
 
-GEMINI_KEY ="AIzaSyDc5OfAy86dBu0_HkANs6tJYsUQXuw45vc"
+GEMINI_KEY ="AIzaSyCoeLjw52lnb2XZVsNOD31It6_XPebQgjk"
 
 st.set_page_config(page_title="RoboLab AI Assistent", page_icon="🤖", layout="wide", initial_sidebar_state="collapsed")
 
