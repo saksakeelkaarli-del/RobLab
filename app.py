@@ -9,7 +9,7 @@ st.set_page_config(
 )
 
 # --- Groq klient ---
-client = Groq(api_key=st.secrets["GROQ_API_KEY"])
+client = Groq(api_key=st.secrets["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"])
 
 # --- Pealkiri ---
 st.title("🤖 Robo Lab AI Assistent")
